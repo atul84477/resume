@@ -1,0 +1,126 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.intro{
+    font-size: large;
+    font-weight: 1900;
+    position: relative;
+    margin-top: 180px;
+    margin-left: -600px;
+}
+.intro1{
+    font-size: large;
+    font-weight:bolder;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -200px;
+}
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -100px;
+}
+/* Styles for the element with class 'hero-img' */
+.heroimg{
+    /* Set background image */
+    background-image: url("Image.jpg");
+    /* Set initial width and height */
+    width: 35rem;
+    height: 35rem;
+    /* Set background properties */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Add border */
+    border: 3px solid black;
+    /* Media query for smaller screens */
+    @media (max-width: 300px) {
+        /* Adjust width and height for smaller screens */
+        width: 20rem;
+        height: 20rem;
+    }
+    /* Add animation */
+    animation: morph 8s ease-in-out infinite;
+    /* Set initial border radius */
+    border-radius: 60% 40% 30% 70% / 50% 30% 70% 40%;
+    /* Set position */
+    position: relative;
+    /* Add transition effect */
+    transition: all 1s ease-in-out;
+}
+
+/* Keyframes for morph animation */
+@keyframes morph {
+    0% {
+        /* Initial border radius */
+        border-radius: 60% 30% 30% 70% / 50% 20% 60% 30%;
+    }
+    40% {
+        /* Border radius at midpoint of animation */
+        border-radius: 30% 60% 70% 40% / 0% 60% 30% 60%;
+    }
+    90% {
+        /* Final border radius */
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+.tech{
+     position: absolute;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    position: relative;
+    font-size: xx-large;
+    margin-top: 600px;
+    margin-left:-800px ;
+    }
+.icons{
+    list-style: none;
+    display: flex;
+    margin-top: 600px;
+}
+li{
+    margin: 5px;
+    padding: 2px;
+}
+
+
+.coffee {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    left: -600px;
+    top: 750px;
+    border-radius: 12px;
+    filter: drop-shadow(12px 5px 2px black);
+    margin: 10px;
+}
+
+.text{
+    margin-top: 750px;
+}
+h3{
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
+    margin-top: 450px;
+}
+h4{
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    margin-top: 50px;
+   
+}
