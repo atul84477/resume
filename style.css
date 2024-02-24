@@ -124,3 +124,17 @@ h4{
     margin-top: 50px;
    
 }
+.continer{
+    position:absolute;
+    right: 900px;
+    top: 750px;
+}
+.hit{
+    font-size:large ;
+    font-weight: bold;
+}
+
+ul{
+    display:contents;
+    list-style: none;
+}
